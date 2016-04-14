@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">AHL</string>
+    <string name="app_full_name">Anna Hockey League</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_teams">Teams</string>
+    <string name="title_activity_players">Players</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="login_email">Enter Email</string>
+    <string name="login_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">New User? Sign Up!</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_register">Sign Up</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="title_activity_results">Fixtures and Results</string>
+    <string-array name="image_ids">
+        <item>@drawable/chat</item>
+        <item>@drawable/play</item>
+        <item>@drawable/player</item>
+        <item>@drawable/team</item>
+
+    </string-array>
+    <string name="RulesContentHeader1">Info</string>
+    <string name="RulesContentHeader2">Rules</string>
+    <string name="RulesContent1">
+           &#8226; The League consists of three levels, each level consisting of 15 matches. \n \n
+           &#8226; In each level every team will play five matches. \n \n
+    </string>
+    <string name="RulesContent2">
+
+           &#8226; The game is equally divided into 5 rounds with the period of 10 minutes each. \n \n
+           &#8226; Each team consists of maximum of 9 players on the field including one goal keeper. \n \n
+           &#8226; Teams can have any number of bench players under the condition that each player should play at least one round. \n \n
+           &#8226; The playing sides will be changed in each round with 2 minutes break and a 4 minute between third and fourth rounds. \n \n
+           &#8226; In the 2nd and 3rd rounds team should play with amateur players(first and second year players),
+        with maximum of three second year players allowed. Violation will lead to penalty stroke. \n \n
+           &#8226; The goal needs to be scored only from the D-circle. \n \n
+           &#8226; Own goal won\'t be awarded. \n \n
+           &#8226; The ball should be moved 5 yards from any place in taking a foul. \n \n
+           &#8226; Hitting the ball is not allowed. \n \n
+           &#8226; Sweeping, tapping and slapping the ball is allowed. \n \n
+           &#8226; Any appeal to the umpire can be done by the captain only. \n \n
+           &#8226; Only three defenders (including goal keeper) and four attackers are allowed in the penalty corner.
+        In penalty corner, the defenders need to run from the goal post. \n \n
+           &#8226; The ball should be started from the 25 yards line if it crosses the back line. \n \n
+           &#8226; The size of the field is 70x50 yards. \n \n
+           &#8226; Field umpire decision is final. \n \n
+           &#8226; All players should wear proper uniform. \n \n
+           &#8226; Points \n \n
+               \u0009 <strong><strong><b>Win</b></strong></strong> - 3 points \n \n
+                \u0009 <strong><strong><b>Draw</b></strong></strong> - 1 point each \n \n
+                \u0009 <strong><strong><b>Lose</b></strong></strong> - 0 points \n \n
+            &#8226; Cards \n \n
+               \u0009 <strong><font fgcolor="#0f0">Green</font></strong> - Player will be suspended for 2 minutes and substitution is not allowed \n \n
+               \u0009 <strong><font fgcolor="#ff0">Yellow</font></strong> - Player will be suspended for 5 minutes and substitution is not allowed \n \n
+               \u0009 <strong><font fgcolor="#f00">Red</font></strong> - Player will be dismissed from the current match and substitution will not be allowed \n \n </string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="title_activity_about">About</string>
+    <string name="large_text">
+        <strong><b>Anna Hockey League </b></strong>(AHL) is an exclusive tournament in the game of Field Hockey,
+        our national game. AHL is conducted by the student players from the constituent
+        colleges of Anna University-Chennai i.e. <strong><b>College of Engineering Guindy</b></strong> (CEG),
+        <strong><b>Alagappa College of Technology</b></strong> (ACT) and <strong><b>Madras Institute of Technology</b></strong> (MIT) - Chrompet. \n \n
+
+This league is the first of its kind in the history
+        of Anna University-Chennai, which is solely conducted by the student players
+        of the above mentioned colleges with the perception of drawing interest towards
+        our national game as well as to compete themselves to develop their individual skills. \n \n
+
+AHL started it\'s journey from the year (2008)
+        and it is planned by the student players that to conduct this AHL every year
+        in the even semesters (January to April) to attract more viewers and to create an
+        awareness among the students of the Anna University-Chennai campus about the game \'Hockey\'. \n \n
+
+AHL\'08 was inaugurated by former Director of University Sports Board (USB),
+        Anna University-Chennai <strong><b>Dr.J.P.Sukumar</b></strong> with the support of all the staffs
+        in the University Sports Board. Special interest is being shown on this league
+        by the Assistant Physical Directors of USB <strong><b>Dr.B.Balakumaran</b></strong>, <strong><b>Mr.S.Balaganesh</b></strong> and <strong><b>Ms.Evelyn Synthia</b></strong>. \n \n
+
+The funds for conducting the league is being collected from interested organizations and from the alumni players of
+        the above mentioned colleges and is handled perfectly by the Mentor <strong><b>Mr.S.Balaganesh</b></strong>
+        - Assistant Physical Director, Anna University, Chennai. \n \n
+
+Apart from the regular academic events, the student players involve themselves in
+        organizing this league to develop their inter-personal skills,
+        leadership skills and also the managerial skills. \n \n
+    </string>
+
+</resources>

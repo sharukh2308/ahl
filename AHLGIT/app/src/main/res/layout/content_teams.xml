@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_teams" tools:context="annahockeyleague.com.ahl.Teams">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstTwo"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/red"
+            android:id="@+id/redTeam"
+            android:paddingTop="10dp"
+            android:drawablePadding="3dp"
+            android:text="Red" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/white"
+            android:id="@+id/whiteTeam"
+            android:paddingTop="10dp"
+            android:paddingLeft="@dimen/nav_header_vertical_spacing"
+            android:drawablePadding="3dp"
+            android:text="White"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondTwo"
+        android:gravity="center"
+        android:layout_below="@id/firstTwo">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/green"
+            android:id="@+id/greenTeam"
+            android:paddingTop="10dp"
+            android:drawablePadding="3dp"
+            android:text="Green" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/yellow"
+            android:id="@+id/yellowTeam"
+            android:paddingTop="10dp"
+            android:paddingLeft="@dimen/nav_header_vertical_spacing"
+            android:drawablePadding="3dp"
+            android:text="Yellow"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondTwo"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/blue"
+            android:id="@+id/blueTeam"
+            android:paddingTop="10dp"
+            android:drawablePadding="3dp"
+            android:text="Blue" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/violet"
+            android:id="@+id/violetTeam"
+            android:paddingTop="10dp"
+            android:paddingLeft="@dimen/nav_header_vertical_spacing"
+            android:drawablePadding="3dp"
+            android:text="Violet"/>
+    </LinearLayout>
+</RelativeLayout>
